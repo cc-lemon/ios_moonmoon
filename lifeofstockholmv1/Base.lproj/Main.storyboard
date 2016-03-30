@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lji-1H-F98">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lji-1H-F98">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -31,7 +31,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Start" translatesAutoresizingMaskIntoConstraints="NO" id="GLl-e2-xV8">
-                                <rect key="frame" x="0.0" y="72" width="375" height="551"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medborgarplatsen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxA-1X-R8a">
@@ -93,26 +93,15 @@
                                 <color key="textColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3DL-l9-jbe">
-                                <rect key="frame" x="84" y="317" width="207" height="33"/>
-                                <fontDescription key="fontDescription" name="AbrilFatface-Regular" family="Abril Fatface" pointSize="30"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Shoppa Mode">
-                                    <color key="titleColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="5en-jF-h5i" kind="show" id="Hwl-VI-0Gb"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nytorget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-iP-VeQ">
-                                <rect key="frame" x="142" y="352" width="66" height="21"/>
+                                <rect key="frame" x="144" y="358" width="66" height="21"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7f-j1-IEE">
-                                <rect key="frame" x="11" y="433" width="171" height="33"/>
+                                <rect key="frame" x="11" y="462" width="171" height="33"/>
                                 <fontDescription key="fontDescription" name="AbrilFatface-Regular" family="Abril Fatface" pointSize="30"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Bastuklubb">
@@ -124,28 +113,28 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barnängsgatan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kf-yu-lEe">
-                                <rect key="frame" x="44" y="465" width="116" height="21"/>
+                                <rect key="frame" x="44" y="503" width="116" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bruncha!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HH-9K-mIZ">
-                                <rect key="frame" x="221" y="438" width="134" height="23"/>
+                                <rect key="frame" x="221" y="467" width="134" height="23"/>
                                 <fontDescription key="fontDescription" name="AbrilFatface-Regular" family="Abril Fatface" pointSize="30"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nytorget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-Hf-EAI">
-                                <rect key="frame" x="250" y="469" width="66" height="21"/>
+                                <rect key="frame" x="250" y="503" width="66" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Knäck första rosén" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puf-Nf-EPu">
-                                <rect key="frame" x="59" y="558" width="281" height="23"/>
+                                <rect key="frame" x="60" y="584" width="281" height="23"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AbrilFatface-Regular" family="Abril Fatface" pointSize="30"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
@@ -153,18 +142,29 @@
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hornstull" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-8a-cLd">
-                                <rect key="frame" x="144" y="589" width="70" height="21"/>
+                                <rect key="frame" x="144" y="621" width="70" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3DL-l9-jbe">
+                                <rect key="frame" x="84" y="323" width="207" height="33"/>
+                                <fontDescription key="fontDescription" name="AbrilFatface-Regular" family="Abril Fatface" pointSize="30"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Shoppa Mode">
+                                    <color key="titleColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5en-jF-h5i" kind="show" id="Hwl-VI-0Gb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="FSB-iR-Y5Z"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -180,11 +180,11 @@
                         <viewControllerLayoutGuide type="bottom" id="I4F-H2-j7G"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CEt-Pq-rme">
-                        <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zfr-iJ-YeY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5 tips" translatesAutoresizingMaskIntoConstraints="NO" id="3kv-9Q-VGf">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="3335"/>
@@ -238,18 +238,23 @@
                         <viewControllerLayoutGuide type="bottom" id="aM9-cN-P01"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ILw-Kx-tWA">
-                        <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ywm-8N-u2n">
-                                <rect key="frame" x="16" y="0.0" width="343" height="559"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Bastuklubb (1)" translatesAutoresizingMaskIntoConstraints="NO" id="29i-Uw-Cjd">
-                                        <rect key="frame" x="0.0" y="0.0" width="341" height="2310"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bastuklubb (1)" translatesAutoresizingMaskIntoConstraints="NO" id="29i-Uw-Cjd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2548"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="29i-Uw-Cjd" secondAttribute="height" multiplier="750:5096" id="gFE-92-9md"/>
                                             <constraint firstAttribute="height" constant="2310" id="vXh-rm-yJT"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="vXh-rm-yJT"/>
+                                            </mask>
+                                        </variation>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -274,11 +279,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ywm-8N-u2n" secondAttribute="trailing" id="7wu-jc-ONZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ywm-8N-u2n" secondAttribute="trailing" id="Bml-9O-5Ok"/>
+                            <constraint firstItem="ywm-8N-u2n" firstAttribute="leading" secondItem="ILw-Kx-tWA" secondAttribute="leading" id="Pkk-cj-KfY"/>
                             <constraint firstItem="ywm-8N-u2n" firstAttribute="top" secondItem="jNw-jT-rPy" secondAttribute="bottom" id="bYV-9f-RoT"/>
                             <constraint firstItem="ywm-8N-u2n" firstAttribute="leading" secondItem="ILw-Kx-tWA" secondAttribute="leadingMargin" id="fXM-Qb-fVb"/>
                             <constraint firstItem="aM9-cN-P01" firstAttribute="top" secondItem="ywm-8N-u2n" secondAttribute="bottom" id="kG9-HB-6QZ"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bml-9O-5Ok"/>
+                                <exclude reference="fXM-Qb-fVb"/>
+                            </mask>
+                        </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="Ij3-6s-74k"/>
@@ -602,11 +615,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Xa2-pa-e3i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v3O-3f-VjB">
-                        <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q2a-q2-dPq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nam Nam" translatesAutoresizingMaskIntoConstraints="NO" id="K06-Vq-uhS">
                                         <rect key="frame" x="0.0" y="0.0" width="380" height="1350"/>
@@ -662,11 +675,11 @@
                         <viewControllerLayoutGuide type="bottom" id="uTi-LL-Wtl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Npq-vz-hGw">
-                        <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7U-x3-BoJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="530"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mode Nytorget" translatesAutoresizingMaskIntoConstraints="NO" id="hzI-S5-dA8">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="2300"/>
@@ -691,7 +704,7 @@
                             <constraint firstAttribute="trailing" secondItem="d7U-x3-BoJ" secondAttribute="trailing" id="7c1-j2-lYM"/>
                             <constraint firstItem="d7U-x3-BoJ" firstAttribute="leading" secondItem="Npq-vz-hGw" secondAttribute="leading" id="7kT-7i-OIG"/>
                             <constraint firstItem="d7U-x3-BoJ" firstAttribute="top" secondItem="dX9-tJ-vi3" secondAttribute="bottom" id="Eed-TS-HdR"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="d7U-x3-BoJ" secondAttribute="bottom" constant="29" id="Kyr-D2-Thj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="d7U-x3-BoJ" secondAttribute="bottom" id="Kyr-D2-Thj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d7U-x3-BoJ" secondAttribute="trailing" id="QhD-IF-bQA"/>
                             <constraint firstItem="d7U-x3-BoJ" firstAttribute="leading" secondItem="Npq-vz-hGw" secondAttribute="leading" id="oZV-7m-PBK"/>
                             <constraint firstAttribute="trailing" secondItem="d7U-x3-BoJ" secondAttribute="trailing" id="orj-g8-r82"/>
@@ -759,6 +772,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="b7m-65-5GW">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VCN-GP-OMu"/>
                     </connections>
